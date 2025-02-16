@@ -36,16 +36,17 @@
     gap: 20px;
 }
 
-.footer .footer-info .column.column-2 .links,
-.footer .footer-info .column.column-3 .links {
-    display: flex;
-    flex-direction: column;
+.footer .footer-info .column .custom-list .item {
     gap: 12px;
-    padding: 0;
 }
 
-.footer .footer-info .column.column-2 .links a,
-.footer .footer-info .column.column-3 .links a {
+.footer .footer-info .column .custom-list .item::before {
+    width: 3px;
+    height: 3px;
+}
+
+.footer .footer-info .column .custom-list a,
+.footer .footer-info .column .custom-list a {
     text-decoration: none;
     font-family: Raleway;
     font-size: 14px;
@@ -65,6 +66,10 @@
 
 .footer .footer-info .column.column-4 .newsletter-text {
     margin: 0 0 36px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color:rgba(68, 68, 68, 1);
 }
 
 .footer .footer-info .column.column-4 .newsletter-form {
@@ -76,16 +81,8 @@
     right: 0;
 }
 
-.footer .footer-info .column.column-4 .newsletter-form .newsletter-email {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #444444;
-    padding: 0 0 16px 0;
-    font-family: Raleway;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    outline: none;
+.footer .footer-info .column.column-4 .newsletter-form .input {
+    padding-right: 30px;
 }
 
 .footer .footer-info .column .logo {
@@ -96,10 +93,18 @@
     padding: 0 0 25px 0;
     border-bottom: 1px solid #444444;
     margin: 0 0 35px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(68, 68, 68, 1);
 }
 
 .footer .footer-info .column .find-us .find-us-text {
     margin: 0 0 25px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
 }
 
 .footer .footer-info .column .find-us .find-us-links {
@@ -110,6 +115,10 @@
 
 .footer .footer-info .column .find-us .find-us-links .find-us-link a {
     text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    color: rgba(68, 68, 68, 1);
 }
 
 .footer .footer-info .column .find-us .find-us-links .line {
@@ -124,14 +133,20 @@
     gap: 15px;
     border-top: 1px solid #444444;
     padding-top: 23px;
-
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(68, 68, 68, 1);
 }
 
 .footer .copyright .payment-methods-container {
     display: flex;
     gap: 13px;
-    align-items: center;
-
+    align-items: center;  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(68, 68, 68, 1);
 }
 
 .footer .copyright .payment-methods-container .payment-methods {
