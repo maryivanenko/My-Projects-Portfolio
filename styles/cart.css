@@ -12,7 +12,92 @@
 .cart .order-wrapper .product-list {
     max-width: 720px;
     width: 100%;
-    border: 1px solid black;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.cart .order-wrapper .product-list .product {
+    display: flex;
+    position: relative;
+    gap: 30px;
+    align-items: center;
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid rgba(68, 68, 68, 10%);
+}
+
+.cart .order-wrapper .product-list .product .photo {
+    max-width: 130px;
+    height: 140px;
+    background: rgba(241, 242, 243, 1);
+    width: 100%;
+}
+
+.cart .order-wrapper .product-list .product .product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+.cart .order-wrapper .product-list .product .product-info .title {
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.cart .order-wrapper .product-list .product .product-info .price-wrapper {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart .order-wrapper .product-list .product .product-info .price-wrapper .price-and-quantity {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.cart .order-wrapper .product-list .product .product-info .price-wrapper .price-and-quantity .quantity {
+    background: rgba(248, 248, 251, 1);
+    display: flex;
+    gap: 20px;
+    padding: 17px 23px;
+}
+
+.cart .order-wrapper .product-list .product .product-info .price-wrapper .price-and-quantity .quantity .count {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.cart .order-wrapper .product-list .product .product-info .price-wrapper .price-and-quantity .quantity .count-button {
+    cursor: pointer;
+    color: rgba(153, 153, 153, 1);  
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 16px;
+}
+
+.cart .order-wrapper .product-list .product .product-info .price-wrapper .total-price {
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.cart .order-wrapper .product-list .product .product-info .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px 7px;
+    border: 1px solid rgba(68, 68, 68, 10%);
+    color: rgba(68, 68, 68, 10%);
+    cursor: pointer;
 }
 
 .cart .order-wrapper .order {
