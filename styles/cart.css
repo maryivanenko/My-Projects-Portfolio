@@ -1,0 +1,79 @@
+.cart {
+
+}
+
+.cart .order-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+
+}
+
+.cart .order-wrapper .product-list {
+    max-width: 720px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.cart .order-wrapper .order {
+    max-width: 360px;
+    width: 100%;
+    padding: 40px;
+    border: 1px solid rgba(68, 68, 68, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart .order-wrapper .order .title {
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.cart .order-wrapper .order .order-price-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart .order-wrapper .order .order-price-wrapper .price-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(68, 68, 68, 1);
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(68, 68, 68, 10%);
+}
+
+.cart .order-wrapper .order .order-price-wrapper .price-row.delimiter {
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+}
+
+.cart .order-wrapper .order .order-price-wrapper .price-row.total {
+    border-bottom: none;
+}
+
+.cart .order-wrapper .order .order-price-wrapper .price-row .name .additional { 
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 9px;
+}
+
+.cart .order-wrapper .order .order-price-wrapper .price-row .price {
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(68, 68, 68, 1);
+}
+
+.cart .order-wrapper .order .button-wrapper {
+    max-width: unset;
+}
+
