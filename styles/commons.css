@@ -7,6 +7,7 @@
     margin: 0 auto;
 }
 
+
 .container .input {
     border: none;
     border-bottom: 1px solid rgba(68, 68, 68, 20%);
@@ -111,4 +112,35 @@
     width: 25px;
     height: 3px;
     background-image: url("../icons/small-row.svg"); 
+}
+
+.container .find-us .find-us-text {
+    margin: 0 0 25px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.container .find-us .find-us-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.container .find-us .find-us-links .find-us-link a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    color: rgba(68, 68, 68, 1);
+}
+
+.container .find-us .find-us-links .line {
+    border-bottom: 1px solid #444444;
+    height: 1px;
+    width: 10px;
 }
