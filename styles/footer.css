@@ -125,3 +125,17 @@
     gap: 8px;
 
 }
+
+.footer-dots {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.footer-dots .small-dots {
+    margin: 0 0 160px 30px;
+}
+        
+.footer-dots .big-dots {
+    margin: 100px 0 0 1260px;
+}

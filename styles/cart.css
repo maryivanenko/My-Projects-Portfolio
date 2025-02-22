@@ -19,7 +19,7 @@
     gap: 50px;
     flex-direction: column;
     border-bottom: 2px solid rgba(0, 0, 0, 1);
-    padding-bottom: 10px;
+    
 }
 
 .cart .order-wrapper .product-list .product {
@@ -173,6 +173,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-bottom: 250px;
 }
 
 .cart .promo-code-wrapper .info {
