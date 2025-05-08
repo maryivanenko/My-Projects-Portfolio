@@ -1,15 +1,19 @@
 .footer {
-    border-top: 20px solid rgba(238, 238, 238, 1);
+    max-width: 1890px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
 }
 
 .footer .footer-info {
-    margin: 110px 0 90px 0;
+    margin: 120px 0 90px 0;
     display: flex;
+    position: relative;
 
 }
 
 .footer .footer-info .column .title {
-    font-family: Josefin Sans;
+    font-family: Josefin Sans, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -47,7 +51,7 @@
 .footer .footer-info .column .custom-list a,
 .footer .footer-info .column .custom-list a {
     text-decoration: none;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -126,16 +130,19 @@
 
 }
 
-.footer-dots {
-    display: flex;
-    justify-content: space-between;
+.container .small-dots {
     position: absolute;
+    top: -80px;
+    left: -30px;
 }
 
-.footer-dots .small-dots {
-    margin: 0 0 160px 30px;
-}
         
-.footer-dots .big-dots {
-    margin: 100px 0 0 1260px;
+.container .big-dots {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.footer-line {
+    width: 100%;
 }

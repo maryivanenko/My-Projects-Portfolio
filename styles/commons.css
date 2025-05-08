@@ -1,8 +1,8 @@
 *{
-    font-family: Raleway;
+    font-family: Raleway, serif;
 }
 .container {
-    max-width: 1140px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
@@ -31,7 +31,7 @@
 
 .container .button-wrapper .button {
     color: rgba( 255, 255, 255, 1);
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
@@ -56,14 +56,14 @@
 }
 
 .container .price .current-price {
-    font-family: Josefin Sans;
+    font-family: Josefin Sans, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 20px;
 }
 
 .container .price .old-price {
-    font-family: Josefin Sans;
+    font-family: Josefin Sans, sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 16px;
